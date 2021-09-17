@@ -20,9 +20,9 @@ export const insertStyleLink = (url: string, { isSameLink = (link1, link2) => li
     function unuse () {
         // prevent insertion duplication
         const maybeExistedLink = Array.from(links ?? []).find(l => isSameLink(l.href, fullHref))
-        if (maybeExistedLink) document.head.removeChild(maybeExistedLink)
+        if (maybeExistedLink) maybeExistedLink.parentNode?.removeChild(maybeExistedLink)
 
-        document.head.removeChild(link)
+        if (document.head.contains(link)) document.head.removeChild(link)
     }
 
     function use () {
