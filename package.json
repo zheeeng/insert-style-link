@@ -14,7 +14,7 @@
     "inject style"
   ],
   "repository": "https://github.com/zheeeng/insert-style-link",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "main": "index.js",
   "scripts": {
