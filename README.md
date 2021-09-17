@@ -1,9 +1,9 @@
-# inject-style-link
+# insert-style-link
 
-[![NPM](https://nodei.co/npm/inject-style-link.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/inject-style-link/)
+[![NPM](https://nodei.co/npm/insert-style-link.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/insert-style-link/)
 
-![publish workflow](https://github.com/zheeeng/inject-style-link/actions/workflows/publish.yml/badge.svg)
-[![npm version](https://img.shields.io/npm/v/inject-style-link.svg)](https://www.npmjs.com/package/inject-style-link)
+![publish workflow](https://github.com/zheeeng/insert-style-link/actions/workflows/publish.yml/badge.svg)
+[![npm version](https://img.shields.io/npm/v/insert-style-link.svg)](https://www.npmjs.com/package/insert-style-link)
 
 Insert, switch or shift a stylesheet `<link />`
 
